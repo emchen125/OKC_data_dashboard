@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import Tech from './pages/Tech.js';
 import Entrepr from './pages/Entrepr.js';
 import Research from './pages/Research.js';
@@ -31,7 +30,7 @@ const router = createBrowserRouter([
 
   {
     path: "*",
-    element: <App />,
+    element: <Research />,
   },
 
 ]);
