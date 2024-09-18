@@ -36,7 +36,11 @@ export default function Header() {
             (navbarOpen ? " flex" : " hidden")
           }
         >
-        <h1 className="text-gray-700 text-2xl">Oklahoma Life Sciences Data Dashboard</h1>
+          <Link
+            to="/home"
+          >
+            <h1 className="text-gray-700 text-2xl md:hover:text-red-700">Oklahoma Life Sciences Data Dashboard</h1>
+          </Link>
           <ul className="flex flex-col lg:flex-row list-none lg:ml-auto mt-2 lg:mt-0">
             <li className="nav-item">
               <Link
@@ -47,7 +51,7 @@ export default function Header() {
                   Research
                 </span>
               </Link>
-            </li>    
+            </li>
             <li className="nav-item">
               <Link
                 to="/tech"
@@ -57,7 +61,7 @@ export default function Header() {
                   Tech Transfer
                 </span>
               </Link>
-            </li>              
+            </li>
             <li className="nav-item">
               <Link
                 to="/entrepr"

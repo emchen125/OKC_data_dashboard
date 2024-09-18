@@ -580,42 +580,18 @@ video {
   }
 }
 
-.feedbackgreen{
-  background-color:#28a74650;
-}
-
-.feedbackyellow{
-  background-color: #ffc1074c;
-  
-}
-
-.feedbackred{
-  background-color:#dc35464d;
+.backgroundblue{
+  background-color:#bbd5e4;
 
 }
 
-.feedbackwhite{
-  background-color:#ffffff4d;
+.backgroundgreen{
+  background-color:#a5caac;
 
 }
 
-.feedbackgreen1{
-  background-color:#198754;
-}
-
-.feedbackyellow1{
-  background-color: #ffc107;
-  
-}
-
-.feedbackred1{
-  background-color:#dc3545;
-
-}
-
-.feedbackwhite1{
-  background-color:#6c757d;
-
+.backgroundorange{
+  background-color:#e2cca3;
 }
 
 

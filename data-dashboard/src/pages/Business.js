@@ -2,6 +2,7 @@ import IndustryDynamicsViz from './viz/red/industry-dynamics.js';
 import LaborDemandViz from './viz/red/labor-demand.js';
 import EconDev from './viz/red/econ-dev.js';
 import WorkforceDev from './viz/red/workforce-dev.js';
+import ProjGrowthViz from './viz/red/projgrowth.js';
 import Header from './Header.js';
 import './output.css';
 
@@ -19,9 +20,11 @@ export function Business() {
       <div className="p-2">
         <LaborDemandViz />
       </div>
+      <div className="p-2">
+        <ProjGrowthViz />
+      </div>
       <EconDev />
       <WorkforceDev />
-
 
     </div>
   );

@@ -5,6 +5,7 @@ import Tech from './pages/Tech.js';
 import Entrepr from './pages/Entrepr.js';
 import Research from './pages/Research.js';
 import Business from './pages/Business.js';
+import Home from './pages/Home.js';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -30,7 +31,7 @@ const router = createBrowserRouter([
 
   {
     path: "*",
-    element: <Research />,
+    element: <Home />,
   },
 
 ]);
